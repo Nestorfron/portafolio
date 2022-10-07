@@ -9,9 +9,9 @@ header {
   background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;
-  height: 650px;
   overflow: hidden; 
-  display: flex;}
+  display: flex;
+  }
 header .contenedor_logo_menu {
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   display: flex;}
@@ -67,7 +67,6 @@ header .textos .contenedor-btns a {
   color: #4f4f4f;
   transition: 0.5s; }
 .main .skils {
-  height: 650px;
   background-color: #f2f2f2;
   padding-top: 50px; }
 .main .skils .titulo {
@@ -103,35 +102,35 @@ header .textos .contenedor-btns a {
   font-weight: 300;
   color: #323068;
   text-align: center;}
-.proyectos .contenedor-proyectos {
+.proyectos .proyectos {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;}
-.proyectos .contenedor-proyectos .proyecto {
+.proyectos .proyectos .proyecto {
   width: 23%;
   margin-bottom: 40px;}
-.proyectos .contenedor-proyectos .proyecto .thumb :hover{
+.proyectos .proyectos .proyecto .thumb :hover{
   border: 2px solid rgba(255, 255, 255, 0.4);
   transition: 0.3s; }
-.proyectos .contenedor-proyectos .proyecto .thumb {
+.proyectos .proyectos .proyecto .thumb {
   width: 100%;
   margin-bottom: 10px;}
-.proyectos .contenedor-proyectos .proyecto .thumb img {
+.proyectos .proyectos .proyecto .thumb img {
   width: 100%;
   vertical-align: top;
   border-radius: 3px;}
-.proyectos .contenedor-proyectos .proyecto .descripcion {
+.proyectos .proyectos .proyecto .descripcion {
   text-align: center;}
-.proyectos .contenedor-proyectos .proyecto .descripcion .nombre {
+.proyectos .proyectos .proyecto .descripcion .nombre {
   font-weight: 700;
   color: #3895ea;
   margin-bottom: 10px;}
-.proyectos .contenedor-proyectos .proyecto .descripcion .categoria a{
+.proyectos .proyectos .proyecto .descripcion .categoria a{
   text-decoration: none;
   font-size: 14px;
   color: #636363;}
-.proyectos .contenedor-proyectos .proyecto .descripcion .categoria a:hover{
+.proyectos .proyectos .proyecto .descripcion .categoria a:hover{
   text-decoration: underline;
   color: #000;}
 footer .contacto {
@@ -203,5 +202,33 @@ footer .redes-sociales a {
 footer .copyright p {
   text-align: center;
 }
-  
+@media screen and (max-width: 800px) {
+  header .contenedor_logo_menu .logo {
+    width: 60%;
+    margin: 0 20%;
+    }
+  header .contenedor_logo_menu .logo img {
+    width: 100%;
+    }
+  header .contenedor_logo_menu .menu {
+    padding: 20px 0;
+    text-align: center;
+    line-height: 50px;}
+
+  header .textos .primera_linea {
+    font-size: 2.5em;}
+  header .textos .segunda_linea {
+    font-size: 1,3em; }
+
+
+  .proyectos .proyectos {
+    justify-content: center;}
+  .proyectos .proyectos .proyecto {
+    width: 80%;
+    margin-bottom: 40px;}
+  .proyectos .proyectos .proyecto .descripcion .nombre {
+    font-size: 1em ;}
+  .proyectos .proyectos .proyecto .descripcion .categoria a{
+    font-size: 1em ;}
+}
   
