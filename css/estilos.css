@@ -93,6 +93,7 @@ header .textos .contenedor-btns a {
   line-height: 28px;
   height: 15px; }
 .proyectos .contenedor {
+  background-color: #194e82;
   overflow: hidden;
   margin: 0 30px;}
 .proyectos .titulo {
@@ -100,7 +101,7 @@ header .textos .contenedor-btns a {
   font-size: 34px;
   margin-bottom: 34px; 
   font-weight: 300;
-  color: #323068;
+  color: #fff;
   text-align: center;}
 .proyectos .proyectos {
   display: flex;
@@ -124,15 +125,15 @@ header .textos .contenedor-btns a {
   text-align: center;}
 .proyectos .proyectos .proyecto .descripcion .nombre {
   font-weight: 700;
-  color: #3895ea;
+  color: #FFF;
   margin-bottom: 10px;}
 .proyectos .proyectos .proyecto .descripcion .categoria a{
   text-decoration: none;
   font-size: 14px;
-  color: #636363;}
+  color: #ffffff;}
 .proyectos .proyectos .proyecto .descripcion .categoria a:hover{
   text-decoration: underline;
-  color: #000;}
+  color: rgb(255, 255, 255);}
 footer .contacto {
   background-color: #f2f2f2;
   margin: 0 5px;}
