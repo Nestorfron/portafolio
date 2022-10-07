@@ -129,7 +129,7 @@ header .textos .contenedor-btns a {
 .proyectos .proyectos .proyecto .descripcion .categoria a{
   text-decoration: none;
   font-size: 14px;
-  color: #ffffff;}
+  color: #000000;}
 .proyectos .proyectos .proyecto .descripcion .categoria a:hover{
   text-decoration: underline;
   color: rgb(255, 255, 255);}
