@@ -7,18 +7,18 @@ $(document).ready(function(){
     $('#btn-conocimientos').on('click', function(){
         $('html, body').animate({
             scrollTop: concimientos
-        }, 500);
+        }, 200);
     })
 
     $('#btn-proyectos').on('click', function(){
         $('html, body').animate({
             scrollTop: proyectos
-        }, 500);
+        }, 200);
     })
     
     $('#btn-contacto').on('click', function(){
         $('html, body').animate({
             scrollTop: contacto -50
-        }, 500);
+        }, 200);
     })
 });
